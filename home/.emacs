@@ -4,6 +4,9 @@
 	     '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
+;; Set solarized-dark as the default theme
+(load-theme 'solarized-dark t)
+
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
 (setq custom-file "~/.emacs-custom.el")
