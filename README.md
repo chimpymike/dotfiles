@@ -1,4 +1,5 @@
 dotfiles
 ========
 My dotfiles.
-Probably not useful but at least I'll know what I did ...
+
+Probably not useful for anybody else but at least I'll know what I did ...
