@@ -7,6 +7,9 @@
 ;; Set solarized-dark as the default theme
 (load-theme 'solarized-dark t)
 
+;; Use paredit in clojure-mode
+(add-hook 'clojure-mode-hook 'paredit-mode)
+
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
 (setq custom-file "~/.emacs-custom.el")
