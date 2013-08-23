@@ -13,6 +13,9 @@
 ;; Use rainbow-delimiters in clojure-mode
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
 
+;; Use spaces for indentation
+(setq-default indent-tabs-mode nil)
+
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
 (setq custom-file "~/.emacs-custom.el")
