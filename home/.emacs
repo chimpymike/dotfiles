@@ -16,6 +16,9 @@
 ;; Use spaces for indentation
 (setq-default indent-tabs-mode nil)
 
+;; Auto indent
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
 (setq custom-file "~/.emacs-custom.el")
