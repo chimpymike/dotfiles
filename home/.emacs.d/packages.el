@@ -17,7 +17,8 @@
     clojure-mode
     paredit
     cider
-    rainbow-delimiters)
+    rainbow-delimiters
+    init-loader)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
