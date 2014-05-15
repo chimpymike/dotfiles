@@ -1,2 +1,3 @@
 .emacs.d
 .homesick/repos/dotfiles
+.emacs.d/init-scripts
