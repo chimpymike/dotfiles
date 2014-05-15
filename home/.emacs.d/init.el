@@ -1,8 +1,8 @@
-;; Add marmalade repo and initialize the package system
-(require 'package)
-(add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/"))
-(package-initialize)
+;; Add config directory to the load path
+(add-to-list 'load-path "~/.emacs.d")
+
+;; Load all packages
+(load "packages")
 
 ;; Set solarized-dark as the default theme
 (load-theme 'solarized-dark t)
@@ -27,5 +27,5 @@
 
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
-(setq custom-file "~/.emacs-custom.el")
+(setq custom-file ".emacs-custom")
 (load custom-file)
