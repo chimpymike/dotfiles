@@ -4,8 +4,8 @@
 ;; Load all packages
 (load "packages")
 
-;; Set solarized-dark as the default theme
-(load-theme 'solarized-dark t)
+;; Load init-scripts
+(init-loader-load "~/.emacs.d/init-scripts")
 
 ;; Use paredit in clojure-mode
 (add-hook 'clojure-mode-hook 'paredit-mode)
