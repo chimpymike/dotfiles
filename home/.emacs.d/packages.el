@@ -18,7 +18,9 @@
     paredit
     cider
     rainbow-delimiters
-    init-loader)
+    init-loader
+    ido-ubiquitous
+    smex)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
