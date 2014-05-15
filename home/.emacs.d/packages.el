@@ -13,7 +13,11 @@
   (package-refresh-contents))
 
 (defvar required-packages
-  '(solarized-theme)
+  '(solarized-theme
+    clojure-mode
+    paredit
+    cider
+    rainbow-delimiters)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
