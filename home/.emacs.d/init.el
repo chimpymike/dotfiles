@@ -5,6 +5,8 @@
 (load "packages")
 
 ;; Load init-scripts
+;;;; Don't display the init loader log after load
+(setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/init-scripts")
 
 ;; Use paredit in clojure-mode
