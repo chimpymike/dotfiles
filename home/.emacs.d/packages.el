@@ -22,7 +22,8 @@
     ido-ubiquitous
     smex
     rvm
-    inf-ruby)
+    inf-ruby
+    yasnippet)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
