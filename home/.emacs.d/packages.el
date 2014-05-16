@@ -20,7 +20,9 @@
     rainbow-delimiters
     init-loader
     ido-ubiquitous
-    smex)
+    smex
+    rvm
+    inf-ruby)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
