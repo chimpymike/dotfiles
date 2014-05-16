@@ -23,7 +23,8 @@
     smex
     rvm
     inf-ruby
-    yasnippet)
+    yasnippet
+    projectile)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
