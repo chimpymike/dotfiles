@@ -3,7 +3,6 @@
 (require 'package)
 
 ;; Add melpa repo and initialize the package system
-(require 'package)
 (add-to-list 'package-archives
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
