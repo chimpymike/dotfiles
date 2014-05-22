@@ -2,9 +2,13 @@
 
 (require 'package)
 
-;; Add melpa repo and initialize the package system
+;; Add melpa repo
 (add-to-list 'package-archives
 	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;; Add org mode repo
+(add-to-list 'package-archives
+             '("org" . "http://orgmode.org/elpa/") t)
+;;  Initialize the package system
 (package-initialize)
 
 ;; Refresh the package list if needed
