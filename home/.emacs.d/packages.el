@@ -28,7 +28,8 @@
     inf-ruby
     yasnippet
     projectile
-    org)
+    org
+    exec-path-from-shell)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
