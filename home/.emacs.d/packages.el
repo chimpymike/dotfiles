@@ -27,13 +27,22 @@
     rvm
     inf-ruby
     yasnippet
-    projectile)
+    projectile
+    org)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
 (dolist (p required-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+;; Install latest version of org mode
+;; Needed to install over the outdated
+;; built in org mode package that comes
+;; with emacs
+(when (not (package-installed-p 'org (list 8 0)))
+  (package-install 'org))
+
 
 
 
