@@ -29,7 +29,8 @@
     yasnippet
     projectile
     org
-    exec-path-from-shell)
+    exec-path-from-shell
+    midje-mode)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
