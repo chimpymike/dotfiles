@@ -30,7 +30,8 @@
     projectile
     org
     exec-path-from-shell
-    midje-mode)
+    midje-mode
+    markdown-mode)
   "Packages which should be installed upon launch")
 
 ;; Install all required packages that are not currently installed
