@@ -1,5 +1,5 @@
-;; Add config directory to the load path
-(add-to-list 'load-path "~/.emacs.d")
+;; Add package config directory to the load path
+(add-to-list 'load-path "~/.emacs.d/pkg-config")
 
 ;; Load all packages
 (load "packages")
