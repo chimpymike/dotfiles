@@ -17,5 +17,5 @@
 
 ;; Use a separate file for customizations added
 ;; from Emacs customization interface
-(setq custom-file ".emacs-custom")
+(setq custom-file "~/.emacs.d/.emacs-custom")
 (load custom-file)
