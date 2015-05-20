@@ -5,7 +5,7 @@
 (global-set-key "\C-ca" 'org-agenda)
 
 ;; Default directory where org files are located
-(setq org-directory "~/Dropbox/org")
+(setq org-directory "/Users/chimpymike/Documents/Thule/thule_orgmode_projects")
 
 ;; Include all org files in org agenda
 (setq org-agenda-files (list org-directory))
@@ -18,7 +18,7 @@
 
 ;; Org capture templates
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "tasks.org" "Tasks")
+      '(("t" "Todo" entry (file+headline "projects.org" "Tasks")
          "* TODO %?\n %i\n %a")
-        ("i" "Inbox" entry (file+headline "inbox.org" "Inbox")
+        ("i" "Inbox" entry (file+headline "projects.org" "Inbox")
          "* %?\n %i\n %a")))
