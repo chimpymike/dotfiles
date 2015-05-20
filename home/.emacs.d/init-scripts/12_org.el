@@ -19,6 +19,6 @@
 ;; Org capture templates
 (setq org-capture-templates
       '(("t" "Todo" entry (file+headline "projects.org" "Tasks")
-         "* TODO %?\n %i\n %a")
+         "* TODO %?")
         ("i" "Inbox" entry (file+headline "projects.org" "Inbox")
-         "* %?\n %i\n %a")))
+         "* %?")))
